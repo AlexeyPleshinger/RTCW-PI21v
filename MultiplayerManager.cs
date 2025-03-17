@@ -1,7 +1,7 @@
 // MultiplayerManager.cs
 public class MultiplayerManager
 {
-    public void CreateNewSession()
+    public void CreateSession()
     {
         // Логика создания игровой сессии
     }
