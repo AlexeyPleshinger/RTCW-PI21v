@@ -5,7 +5,7 @@ public class GraphicsManager
     {
         // Логика отображения 3D-объектов
     }
-
+some text
     public void ApplyLighting()
     {
         // Реализация освещения
