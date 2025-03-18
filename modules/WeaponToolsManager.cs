@@ -1,16 +1,25 @@
 // WeaponManager.cs
 public class WeaponManager
 {
+    /// <summary>
+    /// Осуществляет выстрел из оружия.
+    /// </summary>
     public void FireWeapon()
     {
         // Логика стрельбы
     }
 
+    /// <summary>
+    /// Перезаряжает оружие.
+    /// </summary>
     public void Reload()
     {
         // Логика перезарядки
     }
 
+    /// <summary>
+    /// Подбирает оружие, боеприпасы или расходники.
+    /// </summary>
     public void PickUpTool()
     {
         // Логика подбора оружия, боеприпаса или расходника
@@ -23,6 +32,6 @@ public class WeaponManager
 
     private void LookThroughBinoculars()
     {
-        // Логика ичпользования бинокля
+        // Логика использования бинокля
     }
 }

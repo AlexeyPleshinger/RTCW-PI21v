@@ -1,14 +1,27 @@
 // Enemy.cs
 public class Enemy
 {
-    public string Type { get; set; } // Вид противника
-    public bool isBoss { get; set; } // Является боссом или обычным врагом
+    /// <summary>
+    /// Вид противника.
+    /// </summary>
+    public string Type { get; set; }
 
+    /// <summary>
+    /// Является ли противник боссом.
+    /// </summary>
+    public bool isBoss { get; set; }
+
+    /// <summary>
+    /// Атакует игрока.
+    /// </summary>
     public void AttackPlayer()
     {
         // Логика атаки на игрока
     }
 
+    /// <summary>
+    /// Обрабатывает смерть врага.
+    /// </summary>
     public void Die()
     {
         // Логика смерти врага
