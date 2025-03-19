@@ -7,6 +7,11 @@ public class Enemy
     public string Type { get; set; }
 
     /// <summary>
+    /// Является ли противник боссом.
+    /// </summary>
+    public bool isBoss { get; set; }
+
+    /// <summary>
     /// Конструктор класса.
     /// </summary>
     public Enemy(string type, bool isBoss)
@@ -14,11 +19,7 @@ public class Enemy
         this.Type = type;
         this.isBoss = isBoss;
     }
-    /// <summary>
-    /// Является ли противник боссом.
-    /// </summary>
-    public bool isBoss { get; set; }
-
+    
     /// <summary>
     /// Атакует игрока.
     /// </summary>
