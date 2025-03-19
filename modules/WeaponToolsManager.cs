@@ -1,5 +1,5 @@
-// WeaponManager.cs
-public static class WeaponToolsManager
+// WeaponToolsManager.cs
+public class WeaponToolsManager
 {
     /// <summary>
     /// Осуществляет выстрел из оружия.
@@ -12,7 +12,7 @@ public static class WeaponToolsManager
     /// <summary>
     /// Перезаряжает оружие.
     /// </summary>
-    public static void Reload()
+    public void Reload()
     {
         // Логика перезарядки
     }
@@ -20,17 +20,17 @@ public static class WeaponToolsManager
     /// <summary>
     /// Подбирает оружие, боеприпасы или расходники.
     /// </summary>
-    public static void PickUpTool()
+    public void PickUpTool()
     {
         // Логика подбора оружия, боеприпаса или расходника
     }
 
-    private static void RestoreHealthOrStamina()
+    public void RestoreHealthOrStamina()
     {
         // Логика восстановления здоровья и выносливости
     }
 
-    private void LookThroughBinoculars()
+    public void LookThroughBinoculars()
     {
         // Логика использования бинокля
     }
