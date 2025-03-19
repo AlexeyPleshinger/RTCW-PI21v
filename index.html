@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTCW-PI21v</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to right, #6a11cb, #e84927);
+            color: #333;
+            font-size: 18px; /* Увеличен размер шрифта */
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #555;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff8e1; /* Светлый кремовый цвет для фона секций */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            padding-left: 20px; /* Отступ для списка */
+        }
+
+        li {
+            margin-bottom: 10px; /* Увеличено расстояние между пунктами списка */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>RTCW-PI21v</h1>
+</header>
+
+<nav>
+    <a href="#description">Описание проекта</a>
+    <a href="#modules">Модули проекта</a>
+    <a href="#contact">Контактная информация</a>
+</nav>
+
+<section id="description">
+    <h2>Описание проекта</h2>
+    <p>Проект RTCW-PI21v представляет собой экшен-шутер от 1-го лица, посвященный противостоянию спецагента секретной службы с паранормальной дивизией СС. Шутер отличается большим арсеналом оружия, непередаваемой атмосферой, проработанными локациями и огромным количеством противников на игровых уровнях. Многопользовательский режим также присутствует.</p>
+
+    <p>Графика игры сочетает в себе исторические элементы с мрачной атмосферой, создавая уникальный визуальный стиль. Мрачные замки, заброшенные лаборатории и окутанные туманом леса формируют идеальную обстановку для напряжённого игрового процесса.</p>
+
+    <p>Игра предлагает динамичные сражения с врагами, используя широкий арсенал оружия от классических пулеметов до экспериментальных технологий.</p>
+
+    <p>Цель проекта: разработать экшен-шутер от 1-го лица с однопользовательским и многопользовательским режимами игры, обеспечить кроссплатформенность конечного продукта.</p>
+</section>
+
+<section id="modules">
+    <h2>Модули проекта</h2>
+    <ul>
+        <li>Модуль PlayerMovement - позволяет реагировать на ввод пользователя и самому настраивать управление.</li>
+        <li>Модуль Enemy - реализует различные виды вражеских NPC.</li>
+        <li>Модуль EnemyAI - отвечает за поведение врагов в зависимости от выбранного уровня сложности.</li>
+        <li>Модуль WeaponToolsManager - реализует шутерные механики, а также позволяет использовать различные расходные материалы по типу аптечек и еды для восстановления здоровья и алкоголя для восстановления выносливости.</li>
+        <li>Модуль GraphicsManager - отвечает за работу с графикой и эффектами.</li>
+        <li>Модуль LevelDesigner - необходим для создания и наполнения игровых уровней.</li>
+        <li>Модуль SoundManager - используется для управления звуковыми эффектами и музыкой.</li>
+        <li>Модуль UIManager - реализует пользовательский интерфейс.</li>
+        <li>Модуль SaveLoadManager - позволяет сохранять текущий прогресс, чтобы позднее загрузиться и продолжить игру.</li>
+        <li>Модуль MultiplayerManager - реализует многопользовательский режим.</li>
+        <li>Модуль LocalizationManager - отвечает за перевод игры на различные языки.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Контактная информация</h2>
+    <p>Дополнительную информацию можно получить по адресу: <a href="mailto:info@rtcwp21v.com">info@rtcwpi21v.com</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 RTCW-PI21v. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
