@@ -1,10 +1,10 @@
 // EnemyAI.cs
-public class EnemyAI
+public static class EnemyAI
 {
     /// <summary>
     /// Патрулирует заданную область.
     /// </summary>
-    public void Patrol()
+    public static void Patrol(Enemy enemy)
     {
         // Логика патрулирования
     }
@@ -12,7 +12,7 @@ public class EnemyAI
     /// <summary>
     /// Атакует игрока.
     /// </summary>
-    public void Attack()
+    public static void Attack(Enemy enemy)
     {
         // Логика атаки
     }
@@ -20,7 +20,7 @@ public class EnemyAI
     /// <summary>
     /// Укрывается от атак.
     /// </summary>
-    public void TakeCover()
+    public static void TakeCover(Enemy enemy)
     {
         // Логика укрытия
     }
@@ -28,7 +28,7 @@ public class EnemyAI
     /// <summary>
     /// Обнаруживает игрока.
     /// </summary>
-    public void DetectPlayer()
+    public static void DetectPlayer(Enemy enemy)
     {
         // Логика обнаружения игрока (учитывается радиус видимости и слышимости противника в соответствии с уровнем сложности)
     }
